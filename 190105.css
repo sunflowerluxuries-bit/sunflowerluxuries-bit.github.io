@@ -3,6 +3,7 @@
 /* #276513, #41458, #2230, #251887, #106445, #94329, #144118, #139 */
 
 /* FONT (From Google Fonts) */
+@import url('https://fonts.googleapis.com/css2?family=Datatype:wght@100..900&display=swap');
 
 /*MOBILE BACKGROUND*/
 @media only screen and (max-width: 800px){
@@ -12,6 +13,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	font-family: "Datatype", monospace;
 	color: #ffffff;
 
 }
@@ -30,6 +32,7 @@ html:not(.nolayout) body:after {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	font-family: "Datatype", monospace;
 	color: #ffffff !important;
 
 }
@@ -44,6 +47,7 @@ body {
 	background-size: cover;
 	-webkit-background-size: cover; /* safari may need this */
 	font-size: 18px !important;
+	font-family: "Datatype", monospace;
 	color: #ffffff;
 
 }
