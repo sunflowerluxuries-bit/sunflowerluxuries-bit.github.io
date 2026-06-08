@@ -55,7 +55,6 @@ body {
 	content: "Welcome! No gimmicks or roleplay please, thank you!";
 	background: #805c5f;
 	background: linear-gradient(0deg,rgba(128, 92, 95, 0.9) 0%, rgba(148, 120, 123, 0.9) 1%, rgba(209, 184, 187, 0.9) 100%) !important;
-	color: #ffffff;
 	border: solid #78464b 1px !important;
 	border-radius: 0px;
 	color: #ffffff;
@@ -85,7 +84,7 @@ div#commentBox{
 div#makeComment {
 	border-radius: 0px;
 	margin-bottom: 10px;
-	visibility: hidden;
+	visibility: visible;
 	
 }
 
@@ -106,7 +105,7 @@ input, select, textarea {
 	box-shadow: 2px 2px 1px #805c5f !important;
 	border-radius: 0px;
 	color: #ffffff !important;
-	text-shadow: none !important
+	text-shadow: none !important;
 	box-shadow: none !important;
 	font-size: 15px !important;
 	
@@ -122,8 +121,41 @@ input, select, textarea {
 /* EVEN COMMENTS */
 .comment:nth-child(even) {
 	background: rgba(0,0,0, 0.2) !important;
-    font-size: 13px !important;
+	font-size: 13px !important;
 
+
+}
+
+.text-muted {
+	color: #ffffff !important;
+
+}
+
+/* COMMNENT BOX PAGEDOLL */
+@media only screen and (min-width: 801px){
+div#makeComment::after {
+	content: url('https://i.postimg.cc/t4SRJCX7/508972.png');
+	position: absolute;
+	top: 410px;
+	right: 585px;
+	scale: 40%;
+	filter: saturate(60%)
+
+			
+}
+
+}
+
+@media only screen and (max-width: 801px){
+div#makeComment::after {
+    content: url('https://i.postimg.cc/t4SRJCX7/508972.png');
+    position: absolute;
+    top: 396px;
+    right: 350px;
+    scale: 30%;
+		filter: saturate(70%)
+			
+}
 
 }
 
@@ -1283,7 +1315,7 @@ img[src$="arrowleft.png"] {
 	height: 600px;
 	width: 600px;
 	right: 0px;
-	bottom: -200px;
+	bottom: -210px;
 	z-index: 1;	
 	filter: saturate(80%);
 	pointer-events: none;
@@ -1301,8 +1333,8 @@ img[src$="arrowleft.png"] {
 	display: block;
 	height: 400px;
 	width: 400px;
-	right: 15px;
-	bottom: -50px;
+	right: 0px;
+	bottom: -135px;
 	z-index: 1;
 	filter: saturate(80%);
 	pointer-events: none;
