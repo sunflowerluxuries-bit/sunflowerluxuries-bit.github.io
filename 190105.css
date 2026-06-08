@@ -248,7 +248,7 @@ button.button:hover, input:hover[type="submit"], input:hover[type="reset"], inpu
 h1 {
 	background: none !important;
 	color: #ffffff !important;
-	text-shadow: 1px 2px #000, 0 1em #000, 0 0.2em #000;
+	text-shadow: 1px 1px 2px #000, 0 0 1em #000, 0 0 0.2em #000; 
 	text-align: center;
 	font-size: 50px;
     
@@ -470,10 +470,11 @@ td.right {
 
 /* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
 .cave-grid, .mound-grid {
-	background: rgba(54,68,58,1) !important;
+	background: #333333;
+	background: linear-gradient(0deg,rgba(51, 51, 51, 0.8) 0%, rgba(102, 102, 102, 0.8) 1%, rgba(161, 161, 161, 0.8) 100%) !important;
 	color: #ffffff;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
+	border: solid #333333 1px !important;
+	box-shadow: 2px 2px 1px #333333 !important;
 	border-radius: 0px;
 	opacity: 0.9 !important;
 	transition: 0.3s ease;
@@ -483,15 +484,15 @@ td.right {
 div.cave-grid:hover, .mound-grid:hover {
 	position: relative;
 	transform: scale(1.03);
-    background: rgba(54,68,58,1) !important;
-    opacity: 1 !important;
+	background: rgba(54,68,58,1) !important;
+	opacity: 1 !important;
 
 
 }
 
 div.cave-grid img  {
 	transition: 0.3s ease;
-    opacity: 100%;
+	opacity: 100%;
 
 }
 
@@ -556,11 +557,11 @@ div.mound-grid {
 
 /* FEED ALL, PLAY ALL */
 .feature {
-	background: #29332b;
-	background: linear-gradient(0deg,rgba(38,54,40,0.87) 0%, rgba(54,68,58,0.89) 1%, rgba(83,98,89,0.86) 100%) !important;
+	background: #333333;
+	background: linear-gradient(0deg,rgba(51, 51, 51, 0.8) 0%, rgba(102, 102, 102, 0.8) 1%, rgba(161, 161, 161, 0.8) 100%) !important;
 	color: #ffffff;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
+	border: solid #333333 1px !important;
+	box-shadow: 2px 2px 1px #333333 !important;
 	padding: 5px !important;
 	
 
@@ -568,11 +569,11 @@ div.mound-grid {
 
 /* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
 .feature, div.left {
-	background: #29332b;
-    background: linear-gradient(0deg,rgba(38,54,40,1) 0%, rgba(54,68,58,1) 1%, rgba(83,98,89,1) 100%) !important;
+	background: #333333;
+	background: linear-gradient(0deg,rgba(51, 51, 51, 0.8) 0%, rgba(102, 102, 102, 0.8) 1%, rgba(161, 161, 161, 0.8) 100%) !important;
 	color: #ffffff;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
+	border: solid #333333 1px !important;
+	box-shadow: 2px 2px 1px #333333 !important;
 	transition: 0.2s ease;
 	opacity: 0.9;
 
@@ -626,7 +627,9 @@ body > div.container.main > div > div.col-md-9.col-xs-12 > center {
  
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 .table .left {
-	background: rgba(54,68,58, 0.7);
+	background: #333333;
+	background: linear-gradient(0deg,rgba(51, 51, 51, 0.8) 0%, rgba(102, 102, 102, 0.8) 1%, rgba(161, 161, 161, 0.8) 100%) !important;
+	color: #ffffff;
         
 }
 
@@ -685,15 +688,15 @@ a:hover {
 .smallbox {
 	float: left;
 	background: #29332b;
-    background: linear-gradient(0deg,rgba(38,54,40,0.87) 0%, rgba(54,68,58,0.89) 1%, rgba(83,98,89,0.86) 100%) !important;
+	background: linear-gradient(0deg,rgba(38,54,40,0.87) 0%, rgba(54,68,58,0.89) 1%, rgba(83,98,89,0.86) 100%) !important;
 	color: #ffffff;
 	border: solid #1a2e1d 1px !important;
 	box-shadow: 2px 2px 1px #1a2e1d !important;
 	border-radius: 0px !important;
 	padding-top: 0px;
-    padding-bottom: 10px;
-    padding-right: 5px;
-    padding-left: 5px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
 	margin: 10px;
 	height: 200px;
 	width: 28.4%;
@@ -704,15 +707,15 @@ a:hover {
 .mediumbox {
 	float: left;
 	background: #29332b;
-    background: linear-gradient(0deg,rgba(38,54,40,0.87) 0%, rgba(54,68,58,0.89) 1%, rgba(83,98,89,0.86) 100%) !important;
+	background: linear-gradient(0deg,rgba(38,54,40,0.87) 0%, rgba(54,68,58,0.89) 1%, rgba(83,98,89,0.86) 100%) !important;
 	color: #ffffff;
 	border: solid #1a2e1d 1px !important;
 	box-shadow: 2px 2px 1px #1a2e1d !important;
 	border-radius: 0px !important;
 	padding-top: 0px;
-    padding-bottom: 10px;
-    padding-right: 5px;
-    padding-left: 5px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
 	margin: 10px;
 	height: 200px;
 	width: 310px;
@@ -723,15 +726,15 @@ a:hover {
 .largebox {
 	float: left;
 	background: #29332b;
-    background: linear-gradient(0deg,rgba(38,54,40,0.87) 0%, rgba(54,68,58,0.89) 1%, rgba(83,98,89,0.86) 100%) !important;
+	background: linear-gradient(0deg,rgba(38,54,40,0.87) 0%, rgba(54,68,58,0.89) 1%, rgba(83,98,89,0.86) 100%) !important;
 	color: #ffffff;
 	border: solid #1a2e1d 1px !important;
 	box-shadow: 2px 2px 1px #1a2e1d !important;
 	border-radius: 0px !important;
 	padding-top: 0px;
-    padding-bottom: 10px;
-    padding-right: 5px;
-    padding-left: 5px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
 	margin: 10px;
 	height: 400px;
 	width: 640px;
@@ -782,173 +785,6 @@ a:hover {
 .pun-credit:hover {
         opacity: 1;
         transition: ease 0.3s;
-
-}
-
-/* For Mobile */
-@media only screen and (max-width: 800px){ 
-.pun-table {
-    width: 600px;
-    background: url('https://i.postimg.cc/3xY4bPDv/Screenshot-2026-03-21-015329.png');
-    background-position: left 25%;
-	background-size: 100%;
-	background-repeat: no-repeat;
-	opacity: 0.85;
-	border-radius: 5px;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
-	position: relative;
-
-}
-
-}
-
-/* For Desktop */
-@media only screen and (min-width: 800px){
-.pun-table {
-    width: 640px;
-	height: 500px;
-    background: url('https://i.postimg.cc/3xY4bPDv/Screenshot-2026-03-21-015329.png');
-	opacity: 0.85;
-	border-radius: 5px;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
-	position: relative;
-
-}
-
-}
-
-.pun-spacer {
-        background: none;
-        width: 320px;
-
-}
-
-/* For Desktop */
-@media only screen and (min-width: 800px){ .pun-content {
-	background: #29332b;
-    background: linear-gradient(0deg,rgba(38,54,40,0.95) 0%, rgba(54,68,58,0.95) 1%, rgba(83,98,89,0.95) 100%) !important;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
-	color: #ffffff;
-	border-radius: 0px !important;
-    text-align: justify;
-    height: 400px;
-	left: 330px;
-    overflow: auto;
-    width: 280px;
-    padding: 20px;
-    border-radius: 5px;
-    font-size: 12px;
-    position: relative;
-    
-}
-
-}
-
-/* For Mobile */
-@media only screen and (max-width: 800px){ .pun-content {
-	background: #29332b;
-    background: linear-gradient(0deg,rgba(38,54,40,0.95) 0%, rgba(54,68,58,0.95) 1%, rgba(83,98,89,0.95) 100%) !important;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
-	color: #ffffff;
-	border-radius: 0px !important;
-	text-align: justify;
-    height: 400px;
-	left: 260px;
-    overflow: auto;
-    width: 280px;
-    padding: 20px;
-    border-radius: 5px;
-    font-size: 12px;
-	position: relative;
-
-}
-
-}
-.pun-content a {
-        color: #ffffff !important;
-        font-weight: normal !important;
-        opacity: 0.5;
-
-}
-
-.pun-content a:hover {
-        opacity: 1 !important;
-
-}
-
-.pun-links {
-	background: #29332b;
-    background: linear-gradient(0deg,rgba(38,54,40,0.95) 0%, rgba(54,68,58,0.95) 1%, rgba(83,98,89,0.95) 100%) !important;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
-	color: #ffffff;
-	text-transform: uppercase;
-	font-size: 15px;
-	font-weight: normal;
-	letter-spacing: 1px;
-	text-align: center;
-	border-radius: 0px;
-	position: relative;
-
-}
-
-.pun-links a {
-        color: #ffffff !important;
-
-}
-
-.pun-graphics {
-	background: #29332b;
-	background: linear-gradient(0deg,rgba(38,54,40,0.95) 0%, rgba(54,68,58,0.95) 1%, rgba(83,98,89,0.95) 100%) !important;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
-	color: #ffffff;
-	text-align: center;
-	border-radius: 0px;
-	position: relative;
-
-}
-
-.pun-graphics a {
-        color: #94c69c !important;
-        border-radius: 10px;
-
-
-}
-
-/* Box Topper 1 */
-@media only screen and (min-width: 801px){
-.box-topper1  {
-	content: url('https://i.postimg.cc/g0XrQd46/winglass.png');
-	position: absolute;
-	height: 150px;
-	filter: grayscale(50%);
-	width: auto;
-	top: -70px;
-	right: 560px;
-	z-index: 10;
-	transform: rotate(40deg);
-    
-}
-
-}
-
-/* Box Topper 2 */
-@media only screen and (min-width: 801px){
-.box-topper2 {
-	content: url('https://i.postimg.cc/TPZTBDHQ/acanthus-mollis-by-duzulek-db4vbc7-fullview.png');
-	position: absolute;
-	height: 250px;
-	top: -158px;
-	right: -25px;
-	z-index: 10;
-
-
-}
 
 }
 
