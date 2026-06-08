@@ -1283,7 +1283,7 @@ img[src$="arrowleft.png"] {
 	height: 600px;
 	width: 600px;
 	right: 0px;
-	bottom: -160px;
+	bottom: -200px;
 	z-index: 1;	
 	filter: saturate(80%);
 	pointer-events: none;
@@ -1300,9 +1300,9 @@ img[src$="arrowleft.png"] {
 	position: fixed;
 	display: block;
 	height: 400px;
-	width: 400px
+	width: 400px;
 	right: 15px;
-	bottom: -40px;
+	bottom: -50px;
 	z-index: 1;
 	filter: saturate(80%);
 	pointer-events: none;
