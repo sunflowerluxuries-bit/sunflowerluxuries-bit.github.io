@@ -309,8 +309,9 @@ button.button:hover, input:hover[type="submit"], input:hover[type="reset"], inpu
 	background-repeat: no-repeat;
 	opacity: 0.8;
 	border-radius: 5px;
-	border: solid #7a4353 1px !important;
-	box-shadow: 2px 2px 1px #7a4353 !important;
+	color: #ffffff;
+	border: solid #846F71 1px !important;
+	box-shadow: 2px 2px 1px #846F71 !important;
 	position: relative;
 
 }
@@ -325,8 +326,8 @@ button.button:hover, input:hover[type="submit"], input:hover[type="reset"], inpu
         background: url('https://i.postimg.cc/YqwVRkMG/Screenshot-2026-03-01-224217.png');
 	opacity: 0.8;
 	border-radius: 5px;
-	border: solid #7a4353 1px !important;
-	box-shadow: 2px 2px 1px #7a4353 !important;
+	border: solid #846F71 1px !important;
+	box-shadow: 2px 2px 1px #846F71 !important;
 	position: relative;
 
 }
@@ -341,11 +342,11 @@ button.button:hover, input:hover[type="submit"], input:hover[type="reset"], inpu
 
 /* For Desktop */
 @media only screen and (min-width: 800px){ .pun-content {
-	background: #6D414B;
-	background: linear-gradient(0deg,rgba(109, 65, 75, 1) 0%, rgba(153, 95, 106, 1) 1%, rgba(235, 157, 166, 1) 100%) !important;
-	border: solid #6D414B 1px !important;
-	box-shadow: 2px 2px 1px #6D414B !important;
+	background: #846F71;
+	background: linear-gradient(0deg,rgba(132, 111, 113, 1) 0%, rgba(168, 141, 137, 1) 1%, rgba(206, 189, 187, 1) 100%) !important;
 	color: #ffffff;
+	border: solid #846F71 1px !important;
+	box-shadow: 2px 2px 1px #846F71 !important;
 	border-radius: 0px !important;
         text-align: justify;
         height: 400px;
@@ -362,11 +363,11 @@ button.button:hover, input:hover[type="submit"], input:hover[type="reset"], inpu
 
 /* For Mobile */
 @media only screen and (max-width: 800px){ .pun-content {
-	background: #6D414B;
-	background: linear-gradient(0deg,rgba(109, 65, 75, 1) 0%, rgba(153, 95, 106, 1) 1%, rgba(235, 157, 166, 1) 100%) !important;
-	border: solid #6D414B 1px !important;
-	box-shadow: 2px 2px 1px #6D414B !important;
+	background: #846F71;
+	background: linear-gradient(0deg,rgba(132, 111, 113, 1) 0%, rgba(168, 141, 137, 1) 1%, rgba(206, 189, 187, 1) 100%) !important;
 	color: #ffffff;
+	border: solid #846F71 1px !important;
+	box-shadow: 2px 2px 1px #846F71 !important;
 	border-radius: 0px !important;
 	text-align: justify;
         height: 400px;
@@ -394,11 +395,11 @@ button.button:hover, input:hover[type="submit"], input:hover[type="reset"], inpu
 }
 
 .pun-links {
-	background: #6D414B;
-	background: linear-gradient(0deg,rgba(109, 65, 75, 1) 0%, rgba(153, 95, 106, 1) 1%, rgba(235, 157, 166, 1) 100%) !important;
-	border: solid #6D414B 1px !important;
-	box-shadow: 2px 2px 1px #6D414B !important;
+	background: #846F71;
+	background: linear-gradient(0deg,rgba(132, 111, 113, 1) 0%, rgba(168, 141, 137, 1) 1%, rgba(206, 189, 187, 1) 100%) !important;
 	color: #ffffff;
+	border: solid #846F71 1px !important;
+	box-shadow: 2px 2px 1px #846F71 !important;
 	text-transform: uppercase;
 	font-size: 15px;
 	font-weight: normal;
@@ -415,11 +416,11 @@ button.button:hover, input:hover[type="submit"], input:hover[type="reset"], inpu
 }
 
 .pun-graphics {
-	background: #6D414B;
-	background: linear-gradient(0deg,rgba(109, 65, 75, 1) 0%, rgba(153, 95, 106, 1) 1%, rgba(235, 157, 166, 1) 100%) !important;
-	border: solid #6D414B 1px !important;
-	box-shadow: 2px 2px 1px #6D414B !important;
-        color: #ffffff;
+	background: #846F71;
+	background: linear-gradient(0deg,rgba(132, 111, 113, 1) 0%, rgba(168, 141, 137, 1) 1%, rgba(206, 189, 187, 1) 100%) !important;
+	color: #ffffff;
+	border: solid #846F71 1px !important;
+	box-shadow: 2px 2px 1px #846F71 !important;
         text-align: center;
         border-radius: 0px;
 	position: relative;
@@ -1055,12 +1056,12 @@ a:hover {
 /* BOXES */
 .smallbox {
 	float: left;
-	background: #29332b;
-	background: linear-gradient(0deg,rgba(38,54,40,0.87) 0%, rgba(54,68,58,0.89) 1%, rgba(83,98,89,0.86) 100%) !important;
+	background: #846F71;
+	background: linear-gradient(0deg,rgba(132, 111, 113, 0.9) 0%, rgba(168, 141, 137, 0.9) 1%, rgba(206, 189, 187, 0.9) 100%) !important;
 	color: #ffffff;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
-	border-radius: 0px !important;
+	border: solid #846F71 1px !important;
+	box-shadow: 2px 2px 1px #846F71 !important;
+	border-radius: 0px;
 	padding-top: 0px;
 	padding-bottom: 10px;
 	padding-right: 5px;
@@ -1074,12 +1075,12 @@ a:hover {
 
 .mediumbox {
 	float: left;
-	background: #29332b;
-	background: linear-gradient(0deg,rgba(38,54,40,0.87) 0%, rgba(54,68,58,0.89) 1%, rgba(83,98,89,0.86) 100%) !important;
+	background: #846F71;
+	background: linear-gradient(0deg,rgba(132, 111, 113, 0.9) 0%, rgba(168, 141, 137, 0.9) 1%, rgba(206, 189, 187, 0.9) 100%) !important;
 	color: #ffffff;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
-	border-radius: 0px !important;
+	border: solid #846F71 1px !important;
+	box-shadow: 2px 2px 1px #846F71 !important;
+	border-radius: 0px;
 	padding-top: 0px;
 	padding-bottom: 10px;
 	padding-right: 5px;
@@ -1093,12 +1094,12 @@ a:hover {
 
 .largebox {
 	float: left;
-	background: #29332b;
-	background: linear-gradient(0deg,rgba(38,54,40,0.87) 0%, rgba(54,68,58,0.89) 1%, rgba(83,98,89,0.86) 100%) !important;
+	background: #846F71;
+	background: linear-gradient(0deg,rgba(132, 111, 113, 0.9) 0%, rgba(168, 141, 137, 0.9) 1%, rgba(206, 189, 187, 0.9) 100%) !important;
 	color: #ffffff;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
-	border-radius: 0px !important;
+	border: solid #846F71 1px !important;
+	box-shadow: 2px 2px 1px #846F71 !important;
+	border-radius: 0px;
 	padding-top: 0px;
 	padding-bottom: 10px;
 	padding-right: 5px;
