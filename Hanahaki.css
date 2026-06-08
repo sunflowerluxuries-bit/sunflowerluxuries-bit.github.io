@@ -92,8 +92,7 @@ div#makeComment {
 /* Leave Comment Input Box */
 input#comment {
 	visibility: visible;
-	background: #805c5f;
-	background: linear-gradient(0deg,rgba(128, 92, 95, 0.8) 0%, rgba(148, 120, 123, 0.8) 1%, rgba(209, 184, 187, 0.8) 100%);
+	background: #BEAEB0;
 	border: solid #805c5f 2px !important;
 	box-shadow: 2px 2px 1px #805c5f !important;
 	border-radius: 0px;
@@ -102,8 +101,7 @@ input#comment {
 
 /* Color behind the content of the elements listed above */
 input, select, textarea {
-	background: #805c5f;
-	background: linear-gradient(0deg,rgba(128, 92, 95, 0.8) 0%, rgba(148, 120, 123, 0.8) 1%, rgba(209, 184, 187, 0.8) 100%);
+	background: #BEAEB0;
 	border: solid #805c5f 2px !important;
 	box-shadow: 2px 2px 1px #805c5f !important;
 	border-radius: 0px;
