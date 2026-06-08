@@ -484,7 +484,6 @@ td.right {
 div.cave-grid:hover, .mound-grid:hover {
 	position: relative;
 	transform: scale(1.03);
-	background: rgba(54,68,58,1) !important;
 	opacity: 1 !important;
 
 
@@ -855,6 +854,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 /* GOLD BEETLE */
 img[src$="icon-beetle-gold.png"] {
 	content: url('https://i.postimg.cc/q7RHjCt9/8fa15e462fd2e994dc56928c39964338-horse-shoe-brown-removebg-preview.png') !important;
+	height: 20px;
 	filter: saturate(50%) !important;
 
 }
@@ -862,6 +862,7 @@ img[src$="icon-beetle-gold.png"] {
 /* SILVER BEETLE */
 img[src$="icon-beetle-silver.png"] {
 	content: url('https://i.postimg.cc/HLx1B7JF/8fa15e462fd2e994dc56928c39964338-horse-shoe-silver-removebg-preview.png') !important;
+	height: 20px;
 	filter: saturate(50%) !important;
 
 }
