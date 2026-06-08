@@ -506,20 +506,20 @@ div.cave-grid img:hover, .mound-grid img:hover {
 /* CAVE / MOUND IMAGES */
 /*Unsorted Lions*/
 img[src$="unsortedlionsbanner.png"] {
-	content: url('https://i.postimg.cc/V6S80mLq/Unsorted.png')!important;
+	content: url('https://i.postimg.cc/HnPy8MyQ/308563981-480px-ezgif-com-resize.jpg')!important;
 
 
 }
 
 /*Nesting*/
 img[src$="nestingbanner.png"] {
-	content: url('https://i.postimg.cc/9M4hwCFP/Nesting.png')!important;
+	content: url('https://i.postimg.cc/C56qn8qb/68040921-480px-ezgif-com-resize.jpg')!important;
 
 }
 
 /*Overview*/
 img[src$="overviewbanner.png"] {
-	content: url('https://i.postimg.cc/rmdkRMFS/Overview.png')!important;
+	content: url('https://i.postimg.cc/XN2FzRDx/Red-breasted-Nuthatch-1-ezgif-com-resize.jpg')!important;
 
 }
 
@@ -799,7 +799,7 @@ a:hover {
 
 /* BACKGROUND */
 ::-webkit-scrollbar-track {
-	background: rgba(83,98,89, 1);
+	background: #645E50;
 	z-index: 1;
 	border-radius: 0px;
 
@@ -808,7 +808,7 @@ a:hover {
 
 /* "THUMB" */
 ::-webkit-scrollbar-thumb {
-	background: rgba(38,54,40,1);
+	background: #322E2B;
 	border-radius: 0px;
 
 }
@@ -817,6 +817,7 @@ a:hover {
 div#lion_image {
 	overflow: hidden;
 	border-radius: 50%;
+	border: solid 10px;
 	margin-top: 20px; 
 	margin-left: 12px; 
 	opacity: 0.8;
@@ -828,17 +829,6 @@ div#lion_image:hover {
 	opacity: 1;
 	border-radius: 50%;
     
-
-}
-
-/* Code by Hok-Z (#170947) */
-/* King Frame */
-#lion_image:after {
-	content:url("https://i.postimg.cc/ydrYw8gk/ezgif_com_resize_10_ezgif_com_effects.png");
-	position: absolute;
-    filter: saturate(1.5);
-	left: 8px;
-	top: 17px;
 
 }
 
@@ -857,19 +847,21 @@ table#player img:hover {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://i.postimg.cc/85zPRS30/logotest.png');
-	height: 120px !important;
+	content: url('https://i.postimg.cc/cHkHFS4p/a-V7INs9-removebg-preview.png');
+
 }
 
 /* CURRENCY ICONS */
 /* GOLD BEETLE */
 img[src$="icon-beetle-gold.png"] {
+	content: url('https://i.postimg.cc/q7RHjCt9/8fa15e462fd2e994dc56928c39964338-horse-shoe-brown-removebg-preview.png') !important;
 	filter: saturate(50%) !important;
 
 }
 
 /* SILVER BEETLE */
 img[src$="icon-beetle-silver.png"] {
+	content: url('https://i.postimg.cc/HLx1B7JF/8fa15e462fd2e994dc56928c39964338-horse-shoe-silver-removebg-preview.png') !important;
 	filter: saturate(50%) !important;
 
 }
@@ -879,8 +871,8 @@ Codes may be edited, used in commissions or for personal use
 Please do not remove credit */
 /* MEMBER ONLINE */
 .member-online {
-	background: rgba(207,207,207,0);
-	content:url('https://i.postimg.cc/FKwSwbz6/64486c2aec42e0335049871abbed4b25_removebg_preview.png')!important;
+	background: #68676B;
+	border: solid 1px #000;
 	width: 20px !important;
 	height: auto;
  
@@ -888,8 +880,14 @@ Please do not remove credit */
  
 /* MEMBER OFFLINE */
 .member-offline {
-	background: rgba(207,207,207,0);
-	content: url('https://i.postimg.cc/0NhShGjt/a58d26884b1837152e7a91d1c22b486f_removebg_preview.png')!important;	width: 20px !important;
+	background: ##595D48
+	border: solid 1px #000;
 	height: auto;
  
 }
+
+/* Saddlebred Horse - https://www.cursors-4u.com/cursor/saddlebred-horse */
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/saddlebred-horse-b8a62ced-32.webp') 32 32, auto !important;
+}
+/* End www.Cursors-4U.com Code */
