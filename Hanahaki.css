@@ -304,6 +304,7 @@ button.button:hover, input:hover[type="submit"], input:hover[type="reset"], inpu
 .pun-table {
         width: 600px;
         background: url('https://i.postimg.cc/YqwVRkMG/Screenshot-2026-03-01-224217.png') !important;
+	filter: saturate(80%);
 	background-position: left 25%;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -324,6 +325,7 @@ button.button:hover, input:hover[type="submit"], input:hover[type="reset"], inpu
         width: 640px;
 	height: 500px;
         background: url('https://i.postimg.cc/YqwVRkMG/Screenshot-2026-03-01-224217.png') !important;
+	filter: saturate(80%);
 	opacity: 0.8;
 	border-radius: 5px;
 	border: solid #846F71 1px !important;
@@ -1113,6 +1115,7 @@ a:hover {
 /* Box Topper 1 */
 @media only screen and (min-width: 801px){.box-topper1 {
 	content: url('https://i.postimg.cc/WzkTnNX5/250894.png');
+	filter: saturate(80%);
 	position: absolute;
 	height: 150px;
 	width: auto;
@@ -1127,6 +1130,7 @@ a:hover {
 /* Box Topper 2 */
 @media only screen and (min-width: 801px){.box-topper2 {
 	content: url('https://i.postimg.cc/yNct4PWv/451168.png');
+	filter: saturate(80%);
 	position: absolute;
 	height: 250px;
 	top: -120px;
@@ -1140,6 +1144,7 @@ a:hover {
 /* Box Topper 3 */
 @media only screen and (min-width: 801px){.box-topper3 {
 	content: url('https://i.postimg.cc/MZL13Gh7/367181-2.png');
+	filter: saturate(80%);
 	position: absolute;
 	height: 250px;
 	top: 720px;
@@ -1220,7 +1225,9 @@ table#player img:hover {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://i.postimg.cc/X7j96mv4/image-2026-03-01-210534862-ezgif-com-resize.png');			
+	content: url('https://i.postimg.cc/X7j96mv4/image-2026-03-01-210534862-ezgif-com-resize.png');
+	filter: saturate(80%);
+			
 }
 
 /* Featured Lion background Replacer */
@@ -1275,11 +1282,12 @@ img[src$="arrowleft.png"] {
 	background-repeat: no-repeat;
 	position: fixed;
 	display: block;
-	height: 400px;
+	height: 600px;
 	width: 400px;
 	right: 0px;
 	bottom: -130px;
 	z-index: 1;	
+	filter: saturate(80%);
 	pointer-events: none;
 
 }
@@ -1293,7 +1301,7 @@ img[src$="arrowleft.png"] {
 	background-repeat: no-repeat;
 	position: fixed;
 	display: block;
-	height: 200px;
+	height: 400px;
 	width: 200px;
 	right: 15px;
 	bottom: -20px;
