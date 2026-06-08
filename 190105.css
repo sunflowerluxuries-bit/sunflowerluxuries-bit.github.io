@@ -248,10 +248,7 @@ button.button:hover, input:hover[type="submit"], input:hover[type="reset"], inpu
 h1 {
 	background: none !important;
 	color: #ffffff !important;
-	text-shadow:
-	1px 1px 2px #877767,
-  	 0 1em #877767,
-  	 0 0.2em #877767;
+	text-shadow: 1px 2px #000, 0 1em #000, 0 0.2em #000;
 	text-align: center;
 	font-size: 50px;
     
@@ -399,38 +396,37 @@ button#label_currentChannel, .s-chat-sidebar #label_currentChannel /* Channel Bu
 /* LION INFO TABLE (Level, Stats, Territory Count, Etc.) */
 /* PANEL BACKGROUND COLOR */
 .table {
-	background: rgba(20,44,27, 0.4);
+	background: rgba(0,0,0, 0.4);
 	color: #ffffff;
 	border-radius: 5px;
-	border: solid #0a1e0e 1px;
-	box-shadow: 2px 2px 1px #0a1e0e !important;
+	border: solid #000 1px;
+	box-shadow: 2px 2px 1px #000 !important;
 	padding: 5px;
 
 }
 
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
 .top, th {
-	background: #0a1e0e;
-    background: linear-gradient(0deg,rgba(7,19,8,0.87) 0%, rgba(20,44,27,0.89) 1%, rgba(50,95,58,0.86) 100%) !important;
-	border: solid #0a1e0e 1px !important;
-	box-shadow: 2px 2px 1px #0a1e0e !important;
+	background: #473527;
+	background: linear-gradient(0deg,rgba(71, 53, 39, 0.8) 0%, rgba(92, 72, 56, 0.8) 1%, rgba(135, 119, 103, 0.8) 100%) !important;
+	border: solid #473527 1px !important;
+	box-shadow: 2px 2px 1px #473527 !important;
 	color: #ffffff !important;
 	border-radius: 0px !important;
 	padding: 5px;
-    font-size: 15px !important;
-    font: hidden;
+	font-size: 15px !important;
     
 }
 
 .bottom {
-	background: #0a1e0e;
-    background: linear-gradient(0deg,rgba(7,19,8,0.87) 0%, rgba(20,44,27,0.89) 1%, rgba(50,95,58,0.86) 100%) !important;
-	border: solid #0a1e0e 1px !important;
-	box-shadow: 2px 2px 1px #0a1e0e !important;
+	background: #473527;
+	background: linear-gradient(0deg,rgba(71, 53, 39, 0.8) 0%, rgba(92, 72, 56, 0.8) 1%, rgba(135, 119, 103, 0.8) 100%) !important;
+	border: solid #473527 1px !important;
+	box-shadow: 2px 2px 1px #473527 !important;
 	color: #ffffff !important;
 	border-radius: 0px !important;
 	padding: 5px;
-    font-size: 15px;
+	font-size: 15px;
 
 }
 
@@ -441,12 +437,12 @@ td.bottom a {
 
 /* Color behind "Level, Stats, Branch, Territory" etc. */
 .inner-table .left {
-	background: #0a1e0e;
-    background: linear-gradient(0deg,rgba(7,19,8,0.87) 0%, rgba(20,44,27,0.89) 1%, rgba(50,95,58,0.86) 100%) !important;
-	border: solid #0a1e0e 1px !important;
-	box-shadow: 2px 2px 1px #0a1e0e !important;
+	background: #473527;
+	background: linear-gradient(0deg,rgba(71, 53, 39, 0.8) 0%, rgba(92, 72, 56, 0.8) 1%, rgba(135, 119, 103, 0.8) 100%) !important;
+	border: solid #473527 1px !important;
+	box-shadow: 2px 2px 1px #473527 !important;
 	border-radius: 0px;
-    font-size: 15px;
+	font-size: 15px;
 
 }
 
@@ -456,7 +452,7 @@ td.bottom a {
 	border-radius: 0px;
 	border: none !important;
 	box-shadow: none !important;    
-    font-size: 15px;
+	font-size: 15px;
 
 
 }
@@ -479,7 +475,7 @@ td.right {
 	border: solid #1a2e1d 1px !important;
 	box-shadow: 2px 2px 1px #1a2e1d !important;
 	border-radius: 0px;
-    opacity: 0.9 !important;
+	opacity: 0.9 !important;
 	transition: 0.3s ease;
 
 }
@@ -590,38 +586,6 @@ div.mound-grid {
 	opacity: 1;
 
 }
-
-/* dynasty list adjustment code by tawnyCollar#251887. may be used in commissions, personal CSS, and free CSS. do NOT remove credit, or reupload claiming it as your own. */
-/* change beetle book image */
-img[src$="den_ancestors.png"] {
-	background: none !important; 
-	content: url('https://i.postimg.cc/KjJw0WzZ/0ba125bf51661ecc5c80edfc5a6585c0_ezgif_com_resize.jpg') !important; 
-
-}
-
-img[src$="den_ancestorsfem.png"] {
-	background: none !important; 
-	content: url('https://i.postimg.cc/HnBR6NxT/49cb56d49dc78ece4e269ee16a9ccc4a_ezgif_com_resize.jpg') !important; 
-
-}
-
-img[src$="den_achievements.png"] {
-	background: none !important; 
-	content: url('https://i.postimg.cc/KjJw0WzZ/0ba125bf51661ecc5c80edfc5a6585c0_ezgif_com_resize.jpg') !important; 
-
-}
-
-img[src$="den_showcase.png"] {
-	background: none !important; 
-	content: url('https://i.postimg.cc/HnBR6NxT/49cb56d49dc78ece4e269ee16a9ccc4a_ezgif_com_resize.jpg') !important; 
-
-}
-
-img[src$="den_beetlebook.png"] {
-	background: none !important; 
-	content: url('https://i.postimg.cc/KjJw0WzZ/0ba125bf51661ecc5c80edfc5a6585c0_ezgif_com_resize.jpg') !important; 
-
-}
  
 /* fits all elements on one line */
 body > div.container.main > div > div.col-md-9.col-xs-12 > center {
@@ -660,32 +624,6 @@ body > div.container.main > div > div.col-md-9.col-xs-12 > center {
 
 }
  
-/* font option 2 - targets individual headers. delete this code if you're using font option one. */
-.dynastylist:nth-child(1) h3 {
-	font-size: 12px !important; /* king dynasty */
-
-}
-
-.dynastylist:nth-child(2) h3 {
-	font-size: 12px !important; /* pride dynasty */
-
-}
-
-.dynastylist:nth-child(3) h3 {
-	font-size: 12px !important; /* achievements */
-
-}
-
-.dynastylist:nth-child(4) h3 {
-	font-size: 12px !important; /* showcase */
-
-}
-
-.dynastylist:nth-child(5) h3 {
-	font-size: 12px !important; /* beetle book */
-
-}
-
 /* Block of color behind "Territory Description, Player Name, Avatar URL" etc. */
 .table .left {
 	background: rgba(54,68,58, 0.7);
@@ -709,7 +647,7 @@ div.container.footer.center.white.visible-lg.visible-md.visible-sm, div.containe
 a:link,
 a:visited {
 	color: #ffffff !important;
-	text-shadow: 1px 1px 2px #BD5355, 0 0 1em #BD5355, 0 0 0.2em #BD5355; 
+	text-shadow: 1px 1px 2px #000, 0 0 1em #000, 0 0 0.2em #000; 
 	transition: 0.3s ease;
 
 }
@@ -1084,103 +1022,18 @@ table#player img:hover {
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 	content: url('https://i.postimg.cc/85zPRS30/logotest.png');
-    height: 120px !important;
-}
-
-/* Featured Lion background Replacer */
-img[src$="default.png"] {
-	content: url(https://i.postimg.cc/66dssB20/image-2026-03-27-155244039-ezgif-com-crop.png);
-	box-shadow: 0px 0px 7px 3px #29332b !important;
-
-}
-
-.featured-lion{
-	background-color: rgb(83,98,89);
-	margin-top: 1px;
-	margin-bottom: 10px;
-	box-shadow: 0px 0px 7px 3px #29332b !important;
-
-}
-
-/* Codes made by Pandora #144118 and Kat .:Red Lion of Voltron:. #94329 
-Codes may be edited, used in commissions or for personal use
-Please do not remove credit | https://pastebin.com/SFkVHTxi */
- 
-/* CAVE ARROWS */ 
-img[src$="arrowgrayleft.png"] {
-	content: url('https://i.postimg.cc/Twn2JjYB/grayleftarrow.png')!important;
-	width: 50px !important;
-
-}
-
-img[src$="arrowgray.png"] {
-	content: url('https://i.postimg.cc/Twn2Jj38/grayrightarrow.png')!important;
-	width: 50px !important;
-
-}
- 
-img[src$="arrow.png"] {
-	content: url('https://i.postimg.cc/T1TTjVms/arrow.png')!important;
-	width: 50px !important;
-
-}
- 
-img[src$="arrowleft.png"] {
-	content: url('https://i.postimg.cc/XqnnKfFD/arrow2.png')!important;
-	width: 50px !important;
-
-}
-
-/* PAGEDOLL */
-@media only screen and (min-width: 801px){
-.container.main:after {
-	background-image: url('https://i.postimg.cc/mk0yjPC9/PAID-Lux.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	position: fixed;
-	display: block;
-	height: 400px;
-	width: 400px;
-	right: 0px;
-	bottom: -60px;
-	z-index: 1;
-	pointer-events: none;
-
-}
-
-}
-
-@media only screen and (max-width: 800px){
-.container.main:after {
-	background-image: url('https://i.postimg.cc/mk0yjPC9/PAID-Lux.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	position: fixed;
-	display: block;
-	height: 200px;
-	width: 200px;
-	right: 15px;
-	bottom: -20px;
-	z-index: 1;
-	pointer-events: none;
-
-}
-
+	height: 120px !important;
 }
 
 /* CURRENCY ICONS */
 /* GOLD BEETLE */
 img[src$="icon-beetle-gold.png"] {
-	content: url('https://i.postimg.cc/85XK5RMn/pngtree_red_grapes_with_green_leaves_png_image_12892545.png')!important;
-	width: 20px !important;
 	filter: saturate(50%) !important;
 
 }
 
 /* SILVER BEETLE */
 img[src$="icon-beetle-silver.png"] {
-	content: url('https://i.postimg.cc/nzSRz4BP/green.png')!important;
-	width: 20px !important;
 	filter: saturate(50%) !important;
 
 }
@@ -1204,37 +1057,3 @@ Please do not remove credit */
 	height: auto;
  
 }
-
-/* Day Icon */
-img[src$="icon-time-day.png"] {
-	content: url('https://i.postimg.cc/k5Cdd2Qk/sun_icon_in_white_background_illustration_of_sun_icon_symbol_in_black_on_white_background_vector_rem.png')!important;
-	width: 15px !important;
-
-}
-
-/* Night Icon */
-img[src$="icon-time-night.png"] {
-	content: url('https://i.postimg.cc/CK0VVRCy/pngtree_vector_moon_icon_png_image_5169292_removebg_preview_ezgif_com_resize.png')!important;
-	width: 15px !important;
-
-}
-
-/* Dry Season Icon */
-img[src$="icon-season-dry.png"] {
-	content: url('https://i.postimg.cc/QMDrrFQv/fire_icon_flame_symbol_vector_18053390_ezgif_com_resize.png')!important;
-	width: 15px !important;
-
-}
-
-/* Wet Season Icon */
-img[src$="icon-season-wet.png"] {
-	content: url('https://i.postimg.cc/g0pPPxVC/116251_removebg_preview_ezgif_com_resize.png')!important;
-	width: 15px !important;
-
-}
-
-/* Oxygen Cherry - https://www.cursors-4u.com/cursor/oxygen-cherry-12 */
-* {
-  cursor: url('https://cdn.cursors-4u.net/previews/oxygen-cherry-5eda5de9-32.webp') 32 32, auto !important;
-}
-/* End www.Cursors-4U.com Code */
