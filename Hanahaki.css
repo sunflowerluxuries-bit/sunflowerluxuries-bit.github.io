@@ -1281,6 +1281,7 @@ img[src$="arrowleft.png"] {
 	position: fixed;
 	display: block;
 	height: 600px;
+	width: 600px;
 	right: 0px;
 	bottom: -130px;
 	z-index: 1;	
@@ -1299,6 +1300,7 @@ img[src$="arrowleft.png"] {
 	position: fixed;
 	display: block;
 	height: 400px;
+	width: 400px
 	right: 15px;
 	bottom: -20px;
 	z-index: 1;
