@@ -168,8 +168,8 @@ input, select, textarea {
 /* NAVBAR HOVER BUTTONS */
 .navbar-default .navbar-nav > li > a:hover {
 	background: none;
-	color: #EE9389 !important;
-	text-shadow: 1px 1px 2px #DE5E5B, 0 0 1em #DE5E5B, 0 0 0.2em #DE5E5B !important; 
+	color: #000 !important;
+	text-shadow: 1px 1px 2px #fff, 0 0 1em #fff, 0 0 0.2em #fff !important; 
 	border-radius: 0px;
 	transition: 0.2s ease-out;
 	box-shadow: none;
