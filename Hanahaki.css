@@ -303,7 +303,7 @@ button.button:hover, input:hover[type="submit"], input:hover[type="reset"], inpu
 @media only screen and (max-width: 800px){ 
 .pun-table {
         width: 600px;
-        background: url('https://i.postimg.cc/YqwVRkMG/Screenshot-2026-03-01-224217.png');
+        background: url('https://i.postimg.cc/YqwVRkMG/Screenshot-2026-03-01-224217.png') !important;
 	background-position: left 25%;
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -323,7 +323,7 @@ button.button:hover, input:hover[type="submit"], input:hover[type="reset"], inpu
 .pun-table {
         width: 640px;
 	height: 500px;
-        background: url('https://i.postimg.cc/YqwVRkMG/Screenshot-2026-03-01-224217.png');
+        background: url('https://i.postimg.cc/YqwVRkMG/Screenshot-2026-03-01-224217.png') !important;
 	opacity: 0.8;
 	border-radius: 5px;
 	border: solid #846F71 1px !important;
@@ -671,7 +671,7 @@ button#label_currentChannel, .s-chat-sidebar #label_currentChannel /* Channel Bu
 	color: #ffffff;
 	border-radius: 5px;
 	border: solid #4D3D3D 1px;
-	box-shadow: 2px 2px 1px #4D3D3D !important;
+	box-shadow: 2px 2px 1px #4D3D3D;
 	padding: 5px;
 
 }
@@ -720,7 +720,7 @@ td.bottom a {
 
 /* Color behind the number of all of the things above */
 .inner-table .right {
-	background: rgba(0,0,0,0.0) !important;
+	background: rgba(0,0,0,0.0);
 	border-radius: 0px;
 	border: none !important;
 	box-shadow: none !important;    
@@ -1441,7 +1441,7 @@ Codes may be edited, used in commissions or for personal use
 Please do not remove credit */
 /* MEMBER ONLINE */
 .member-online {
-	background: rgba(207,207,207,0);
+	background: rgba(207,207,207,0;
 	content:url('https://i.postimg.cc/j2Y7LkKn/heart.png')!important;
 	width: 20px !important;
 	height: auto;
