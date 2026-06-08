@@ -805,27 +805,26 @@ img[src$="cavedefault.jpg"] {
 }
 
 /* Cave 1 */
-a[href$="415973"] div.cave-grid img {
-	content: url('hhttps://i.postimg.cc/8cpVyr6G/f27e5b48109417aa4adff715b04a33ba.jpg')!important;
-    opacity: 0.8 !important;
+a[href$="400856"] div.cave-grid img {
+	content: url('https://i.postimg.cc/8cpVyr6G/f27e5b48109417aa4adff715b04a33ba.jpg')!important;
 
 }
 
 /* Cave 2 */
-a[href$="400856"] div.cave-grid img {
+a[href$="403259"] div.cave-grid img {
 	content: url('https://i.postimg.cc/nrFtdQQS/8bd713911b031f4b1b2a2347bf0ce212.jpg')!important;
 
 }
 
 /* Cave 3 */
-a[href$="403259"] div.cave-grid img {
+a[href$="407284"] div.cave-grid img {
 	content: url('https://i.postimg.cc/FzrQPJLQ/c135b9b766e096712cce2c90bb14ac45.jpg')!important;
 
 }
 
 /* Cave 4 */
-a[href$="407284"] div.cave-grid img {
-	content: url('https://i.postimg.cc/d3sKWTyP/48c68be326286830ba827c3ead2876b2.jpg')!important;
+a[href$="491492"] div.cave-grid img {
+	content: url('https://i.postimg.cc/MH68sjQx/f67a534fc0e24391b190c83f7a770a92.jpg')!important;
 
 }
 
@@ -836,14 +835,14 @@ a[href$="413423"] div.cave-grid img {
 }
 
 /* Cave 6 */
-a[href$="491492"] div.cave-grid img {
-	content: url('https://i.postimg.cc/6qWNHGGD/18aed49c807148ab7116a22fc3210458.jpg')!important;
+a[href$="402402"] div.cave-grid img {
+	content: url('https://i.postimg.cc/d3sKWTyP/48c68be326286830ba827c3ead2876b2.jpg')!important;
 
 }
 
 /* Cave 7 */
-a[href$="402402"] div.cave-grid img {
-	content: url('https://i.postimg.cc/D0vKCbbD/10bd8ba638303db925aa6241f629d74e.jpg')!important;
+a[href$="491494"] div.cave-grid img {
+	content: url('https://i.postimg.cc/Xqj02yyR/adf243078225fa5c2c10170ff9331762.jpg')!important;
 
 }
 
@@ -854,8 +853,8 @@ a[href$="491493"] div.cave-grid img {
 }
 
 /* Cave 9 */
-a[href$="491492"] div.cave-grid img {
-	content: url('https://i.postimg.cc/MH68sjQx/f67a534fc0e24391b190c83f7a770a92.jpg')!important;
+a[href$="415973"] div.cave-grid img {
+	content: url('https://i.postimg.cc/Y0rwXmmn/1a697f6a6550608a3193e409d06aba72.jpg')!important;
 
 }
 
