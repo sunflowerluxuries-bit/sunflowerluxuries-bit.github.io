@@ -1283,7 +1283,7 @@ img[src$="arrowleft.png"] {
 	height: 600px;
 	width: 600px;
 	right: 0px;
-	bottom: -130px;
+	bottom: -160px;
 	z-index: 1;	
 	filter: saturate(80%);
 	pointer-events: none;
@@ -1302,7 +1302,7 @@ img[src$="arrowleft.png"] {
 	height: 400px;
 	width: 400px
 	right: 15px;
-	bottom: -20px;
+	bottom: -40px;
 	z-index: 1;
 	filter: saturate(80%);
 	pointer-events: none;
