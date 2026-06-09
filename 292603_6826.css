@@ -880,12 +880,12 @@ div#lion_image:hover {
 }
 
 /* Code by Hok-Z (#170947) */
-/* King Frame */
+/* 'King Frame' */
 #lion_image:after {
 	content:url("https://i.postimg.cc/tCzZgzZN/ezgif-com-resize.png");
 	position: absolute;
-	left: 8px;
-	top: 17px;
+	left: -3px;
+	top: 12px;
 
 }
 
@@ -955,7 +955,7 @@ img[src$="arrowleft.png"] {
 /* PAGEDOLL */
 @media only screen and (min-width: 801px){
 .container.main:after {
-	background-image: url('https://i.postimg.cc/hP4WyCtH/6bdc03a5d04668afadef2d7a87d28176-removebg-preview.png');
+	background-image: url('https://i.postimg.cc/q7237cC8/6bdc03a5d04668afadef2d7a87d28176-removebg-preview-(1).png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	position: fixed;
@@ -973,7 +973,7 @@ img[src$="arrowleft.png"] {
 
 @media only screen and (max-width: 800px){
 .container.main:after {
-	background-image: url('https://i.postimg.cc/hP4WyCtH/6bdc03a5d04668afadef2d7a87d28176-removebg-preview.png');
+	background-image: url('https://i.postimg.cc/q7237cC8/6bdc03a5d04668afadef2d7a87d28176-removebg-preview-(1).png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	position: fixed;
