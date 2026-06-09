@@ -253,7 +253,7 @@ button.button:hover, input:hover[type="submit"], input:hover[type="reset"], inpu
 h1 {
 	background: none !important;
 	color: #ffffff !important;
-	text-shadow:1px 1px 2px #ED8D75,0 0 1em #ED8D75,0 0 0.2em #ED8D75;
+	text-shadow: 1px 1px 2px #b85f6e,0 0 1em #b85f6e,0 0 0.2em #b85f6e;
 	text-align: center;
 	font-size: 50px;
     
@@ -363,24 +363,24 @@ div:nth-child(2)>div>div>div.progress-bar.progress-bar-success {
 
 /* CHAT */
 .s-chat-message:nth-child(even) /* Even Numbered Messages */ {
-	background: rgba(54,68,58, 0.4) !important;
+	background: rgba(141, 173, 199, 0.4) !important;
 	color: #ffffff !important;
 	border: none !important
 		
 }
 
 .s-chat-message:nth-child(odd), .s-chat-message:nth-child(odd) /* Odd Numbered Messages */ {
-	background: rgba(54,68,58, 0.6) !important;
+	background: rgba(141, 173, 199, 0.6) !important;
 	color: #ffffff !important;
 	border: none !important
 }
 
 .s-chat-message__pinned,#chatMessagePinned.s-chat-message__pinned .s-chat-message_content /* Pinned Message */ {
-	background: #29332b;
-	background: linear-gradient(0deg,rgba(38,54,40,1) 0%, rgba(54,68,58,1) 1%, rgba(83,98,89,1) 100%) !important;
+	background: #708d9e;
+	background: linear-gradient(0deg,rgba(112, 141, 158, 1) 0%, rgba(141, 173, 199, 1) 1%, rgba(163, 205, 229, 1) 100%) !important;
 	color: #ffffff;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
+	border: solid #708d9e 1px !important;
+	box-shadow: 2px 2px 1px #708d9e !important;
 	color: #ffffff !important;
 	border: none !important
 }
@@ -390,8 +390,8 @@ div:nth-child(2)>div>div>div.progress-bar.progress-bar-success {
 }
 
 div#chatMessageContainer {
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
+	border: solid #708D9E 1px !important;
+	box-shadow: 2px 2px 1px #708D9E !important;
 	
 }
 
@@ -867,7 +867,6 @@ a:hover {
 /* LION AND USER AVATAR OPACITY */
 div#lion_image {
 	overflow: hidden;
-	border-radius: 50%;
 	margin-top: 20px; 
 	margin-left: 12px; 
 	opacity: 0.8;
@@ -876,18 +875,15 @@ div#lion_image {
 }
 
 div#lion_image:hover {
-	opacity: 1;
-	border-radius: 50%;
-    
+	opacity: 1;    
 
 }
 
 /* Code by Hok-Z (#170947) */
 /* King Frame */
 #lion_image:after {
-	content:url("https://i.postimg.cc/ydrYw8gk/ezgif_com_resize_10_ezgif_com_effects.png");
+	content:url("https://i.postimg.cc/tCzZgzZN/ezgif-com-resize.png");
 	position: absolute;
-    filter: saturate(1.5);
 	left: 8px;
 	top: 17px;
 
