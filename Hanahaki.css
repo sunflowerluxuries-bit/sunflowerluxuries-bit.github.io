@@ -131,34 +131,6 @@ input, select, textarea {
 
 }
 
-/* COMMNENT BOX PAGEDOLL */
-@media only screen and (min-width: 801px){
-div#makeComment::after {
-	content: url('https://i.postimg.cc/t4SRJCX7/508972.png');
-	position: absolute;
-	top: 410px;
-	right: 585px;
-	scale: 40%;
-	filter: saturate(60%)
-
-			
-}
-
-}
-
-@media only screen and (max-width: 801px){
-div#makeComment::after {
-    content: url('https://i.postimg.cc/t4SRJCX7/508972.png');
-    position: absolute;
-    top: 396px;
-    right: 350px;
-    scale: 30%;
-		filter: saturate(70%)
-			
-}
-
-}
-
 .text-muted {
 	color: #ffffff !important;
 
