@@ -910,16 +910,17 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* Featured Lion background Replacer */
 img[src$="default.png"] {
-	content: url(https://i.postimg.cc/66dssB20/image-2026-03-27-155244039-ezgif-com-crop.png);
-	box-shadow: 0px 0px 7px 3px #29332b !important;
+	content: url(https://static.lioden.com/images/dynamic/backgrounds/SereneGrotto.png);
+	filter: saturate(50%);
+	box-shadow: 0px 0px 7px 3px #B85F6E !important;
 
 }
 
 .featured-lion{
-	background-color: rgb(83,98,89);
+	background-color: #F2AEBC;
 	margin-top: 1px;
 	margin-bottom: 10px;
-	box-shadow: 0px 0px 7px 3px #29332b !important;
+	box-shadow: 0px 0px 7px 3px #B85F6E !important;
 
 }
 
