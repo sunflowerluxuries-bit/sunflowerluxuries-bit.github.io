@@ -854,6 +854,7 @@ a:hover {
 }
 
 }
+
 .pun-content a {
         color: #ffffff !important;
         font-weight: normal !important;
@@ -890,7 +891,7 @@ a:hover {
 }
 
 .pun-graphics {
-	background: rgba(0,0,0, 0.0;
+	background: rgba(0,0,0, 0.0);
 	color: #fff;
 	border: none !important;
 	box-shadow: none !important;
