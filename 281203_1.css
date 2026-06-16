@@ -541,7 +541,7 @@ a[href$="527172"] div.cave-grid img {
 .feature {
 	background: #75196a;
 	background: linear-gradient(90deg,rgba(117, 25, 106, 0.8) 0%, rgba(161, 32, 120, 0.8) 100%) !important;
-	color: #80023A;
+	color: #ffffff;
 	border: none !important;
 	box-shadow: none !important;
 	padding: 5px !important;
@@ -770,15 +770,15 @@ a:hover {
 /* For Mobile */
 @media only screen and (max-width: 800px){ 
 .pun-table {
-    width: 600px;
-    background: url('https://i.postimg.cc/3xY4bPDv/Screenshot-2026-03-21-015329.png');
-    background-position: left 25%;
+	width: 600px;
+	background: url('https://i.postimg.cc/nhVH5ydL/image-2026-06-16-161415232.png');
+	background-position: left 25%;
 	background-size: 100%;
 	background-repeat: no-repeat;
 	opacity: 0.85;
 	border-radius: 5px;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
+	border: none !important;
+	box-shadow: none !important;
 	position: relative;
 
 }
@@ -788,13 +788,13 @@ a:hover {
 /* For Desktop */
 @media only screen and (min-width: 800px){
 .pun-table {
-    width: 640px;
+	width: 640px;
 	height: 500px;
-    background: url('https://i.postimg.cc/3xY4bPDv/Screenshot-2026-03-21-015329.png');
+	background: url('https://i.postimg.cc/nhVH5ydL/image-2026-06-16-161415232.png');
 	opacity: 0.85;
 	border-radius: 5px;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
+	border: none !important;
+	box-shadow: none !important;
 	position: relative;
 
 }
@@ -809,21 +809,23 @@ a:hover {
 
 /* For Desktop */
 @media only screen and (min-width: 800px){ .pun-content {
-	background: #29332b;
-    background: linear-gradient(0deg,rgba(38,54,40,0.95) 0%, rgba(54,68,58,0.95) 1%, rgba(83,98,89,0.95) 100%) !important;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
+	background: #75196a;
+	background: linear-gradient(90deg,rgba(117, 25, 106, 1) 0%, rgba(161, 32, 120, 1) 100%) !important;
+	color: #fff;
+	border: none !important;
+	box-shadow: none !important;
+	border-radius: 0px;
 	color: #ffffff;
 	border-radius: 0px !important;
-    text-align: justify;
-    height: 400px;
+	text-align: justify;
+	height: 400px;
 	left: 330px;
-    overflow: auto;
-    width: 280px;
-    padding: 20px;
-    border-radius: 5px;
-    font-size: 12px;
-    position: relative;
+	overflow: auto;
+	width: 280px;
+	padding: 20px;
+	border-radius: 0px;
+	font-size: 12px;
+	position: relative;
     
 }
 
@@ -831,20 +833,22 @@ a:hover {
 
 /* For Mobile */
 @media only screen and (max-width: 800px){ .pun-content {
-	background: #29332b;
-    background: linear-gradient(0deg,rgba(38,54,40,0.95) 0%, rgba(54,68,58,0.95) 1%, rgba(83,98,89,0.95) 100%) !important;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
+	background: #75196a;
+	background: linear-gradient(90deg,rgba(117, 25, 106, 0.8) 0%, rgba(161, 32, 120, 0.8) 100%) !important;
+	color: #fff;
+	border: none !important;
+	box-shadow: none !important;
+	border-radius: 0px;
 	color: #ffffff;
 	border-radius: 0px !important;
 	text-align: justify;
-    height: 400px;
+	height: 400px;
 	left: 260px;
-    overflow: auto;
-    width: 280px;
-    padding: 20px;
-    border-radius: 5px;
-    font-size: 12px;
+	overflow: auto;
+	width: 280px;
+	padding: 20px;
+	border-radius: 0px;
+	font-size: 12px;
 	position: relative;
 
 }
@@ -863,10 +867,12 @@ a:hover {
 }
 
 .pun-links {
-	background: #29332b;
-    background: linear-gradient(0deg,rgba(38,54,40,0.95) 0%, rgba(54,68,58,0.95) 1%, rgba(83,98,89,0.95) 100%) !important;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
+	background: #75196a;
+	background: linear-gradient(90deg,rgba(117, 25, 106, 0.8) 0%, rgba(161, 32, 120, 0.8) 100%) !important;
+	color: #fff;
+	border: none !important;
+	box-shadow: none !important;
+	border-radius: 0px;
 	color: #ffffff;
 	text-transform: uppercase;
 	font-size: 15px;
@@ -884,10 +890,13 @@ a:hover {
 }
 
 .pun-graphics {
-	background: #29332b;
-	background: linear-gradient(0deg,rgba(38,54,40,0.95) 0%, rgba(54,68,58,0.95) 1%, rgba(83,98,89,0.95) 100%) !important;
-	border: solid #1a2e1d 1px !important;
-	box-shadow: 2px 2px 1px #1a2e1d !important;
+	background: rgba(0,0,0, 0.0;
+	color: #fff;
+	border: none !important;
+	box-shadow: none !important;
+	border-radius: 0px;
+	border: none !important;
+	box-shadow: none !important;
 	color: #ffffff;
 	text-align: center;
 	border-radius: 0px;
@@ -902,38 +911,6 @@ a:hover {
 
 }
 
-/* Box Topper 1 */
-@media only screen and (min-width: 801px){
-.box-topper1  {
-	content: url('https://i.postimg.cc/g0XrQd46/winglass.png');
-	position: absolute;
-	height: 150px;
-	filter: grayscale(50%);
-	width: auto;
-	top: -70px;
-	right: 560px;
-	z-index: 10;
-	transform: rotate(40deg);
-    
-}
-
-}
-
-/* Box Topper 2 */
-@media only screen and (min-width: 801px){
-.box-topper2 {
-	content: url('https://i.postimg.cc/TPZTBDHQ/acanthus-mollis-by-duzulek-db4vbc7-fullview.png');
-	position: absolute;
-	height: 250px;
-	top: -158px;
-	right: -25px;
-	z-index: 10;
-
-
-}
-
-}
-
 /* SCROLL BAR */
 /* WIDTH */
 ::-webkit-scrollbar {
@@ -945,7 +922,7 @@ a:hover {
 
 /* BACKGROUND */
 ::-webkit-scrollbar-track {
-	background: rgba(83,98,89, 1);
+	background: rgba(0,0,0, 1);
 	z-index: 1;
 	border-radius: 0px;
 
@@ -954,7 +931,7 @@ a:hover {
 
 /* "THUMB" */
 ::-webkit-scrollbar-thumb {
-	background: rgba(38,54,40,1);
+	background: #75196a;
 	border-radius: 0px;
 
 }
