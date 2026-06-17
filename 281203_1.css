@@ -433,7 +433,7 @@ td.right {
 /* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", "View Pride Overview", and cave/mound names */
 .cave-grid, .mound-grid {
 	background: rgba(0,0,0, 0.8);
-	color: #80023A;
+	color: #fff;
 	border: none !important;
 	box-shadow: none !important;
 	border-radius: 0px;
@@ -553,7 +553,7 @@ a[href$="527172"] div.cave-grid img {
 .feature, div.left {
 	background: #75196a;
 	background: linear-gradient(90deg,rgba(117, 25, 106, 0.8) 0%, rgba(161, 32, 120, 0.8) 100%) !important;
-	color: #80023A;
+	color: #fff;
 	border: none !important;
 	box-shadow: none !important;
 	transition: 0.2s ease;
@@ -718,6 +718,25 @@ a:hover {
             display: block !important;
             
 }
+
+}
+
+.mediumbox {
+	float: left;
+	background: #75196a;
+	background: linear-gradient(90deg,rgba(117, 25, 106, 1) 0%, rgba(161, 32, 120, 1) 100%) !important;
+	color: #fff;
+	border: none !important;
+	box-shadow: none !important;
+	border-radius: 0px;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin: 10px;
+	height: 200px;
+	width: 310px;
+	overflow: auto
 
 }
 
