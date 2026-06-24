@@ -1077,7 +1077,7 @@ a:hover {
 /* Box Topper 2 */
 @media only screen and (min-width: 801px){
 .box-topper2 {
-	content: url('https://i.postimg.cc/TPZTBDHQ/acanthus-mollis-by-duzulek-db4vbc7-fullview.png');
+	content: url('https://i.postimg.cc/mk0yjPC9/508972.png');
 	position: absolute;
 	height: 250px;
 	top: -158px;
@@ -1158,8 +1158,8 @@ table#player img:hover {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://i.postimg.cc/85zPRS30/logotest.png');
-    height: 120px !important;
+	content: url('https://i.postimg.cc/x8TK7CnL/253269-ezgif-com-resize.png');
+
 }
 
 /* Featured Lion background Replacer */
@@ -1209,7 +1209,7 @@ img[src$="arrowleft.png"] {
 /* PAGEDOLL */
 @media only screen and (min-width: 801px){
 .container.main:after {
-	background-image: url('https://i.postimg.cc/mk0yjPC9/PAID-Lux.png');
+	background-image: url('https://i.postimg.cc/hGYWhJ31/582891.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	position: fixed;
@@ -1227,7 +1227,7 @@ img[src$="arrowleft.png"] {
 
 @media only screen and (max-width: 800px){
 .container.main:after {
-	background-image: url('https://i.postimg.cc/mk0yjPC9/PAID-Lux.png');
+	background-image: url('https://i.postimg.cc/hGYWhJ31/582891.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	position: fixed;
