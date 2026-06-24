@@ -1218,7 +1218,7 @@ img[src$="arrowleft.png"] {
 	height: 700px;
 	width: 700px;
 	right: 0px;
-	bottom: -240px;
+	bottom: -260px;
 	z-index: 1;
 	pointer-events: none;
 
@@ -1236,7 +1236,7 @@ img[src$="arrowleft.png"] {
 	height: 400px;
 	width: 400px;
 	right: 15px;
-	bottom: -100px;
+	bottom: -150px;
 	z-index: 1;
 	pointer-events: none;
 
