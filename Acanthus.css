@@ -1080,7 +1080,7 @@ a:hover {
 	content: url('https://i.postimg.cc/mk0yjPC9/508972.png');
 	position: absolute;
 	height: 200px;
-	top: -180px;
+	top: -120px;
 	right: -25px;
 	z-index: 10;
 
@@ -1218,7 +1218,7 @@ img[src$="arrowleft.png"] {
 	height: 600px;
 	width: 600px;
 	right: 0px;
-	bottom: -60px;
+	bottom: -120px;
 	z-index: 1;
 	pointer-events: none;
 
@@ -1236,7 +1236,7 @@ img[src$="arrowleft.png"] {
 	height: 300px;
 	width: 300px;
 	right: 15px;
-	bottom: -20px;
+	bottom: -40px;
 	z-index: 1;
 	pointer-events: none;
 
