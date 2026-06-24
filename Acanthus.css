@@ -1158,7 +1158,8 @@ table#player img:hover {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://i.postimg.cc/x8TK7CnL/253269-ezgif-com-resize.png');
+	content: url('https://i.postimg.cc/85zPRS30/logotest.png');
+	height: 120px !important;
 
 }
 
