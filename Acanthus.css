@@ -1215,10 +1215,10 @@ img[src$="arrowleft.png"] {
 	background-repeat: no-repeat;
 	position: fixed;
 	display: block;
-	height: 600px;
-	width: 600px;
+	height: 700px;
+	width: 700px;
 	right: 0px;
-	bottom: -200px;
+	bottom: -240px;
 	z-index: 1;
 	pointer-events: none;
 
@@ -1233,10 +1233,10 @@ img[src$="arrowleft.png"] {
 	background-repeat: no-repeat;
 	position: fixed;
 	display: block;
-	height: 300px;
-	width: 300px;
+	height: 400px;
+	width: 400px;
 	right: 15px;
-	bottom: -60px;
+	bottom: -100px;
 	z-index: 1;
 	pointer-events: none;
 
