@@ -54,6 +54,26 @@ body {
 
 }
 
+/* Comment Topbar */
+#commentBox::before {
+	content: "❝Brave little cosmonaut, faithful to a fault; caught and collared, Earth no more than a distant ball with which you cannot play.❞";
+	background: #1A1920;
+	background: linear-gradient(0deg,rgba(26, 25, 32, 0.8) 0%, rgba(35, 47, 74, 0.8) 1%, rgba(65, 78, 105, 0.8) 100%) !important;
+	border-radius: 0px;
+	color: #ffffff;
+	border: solid #1A1920 2px !important;
+	border-radius: 0px;
+	color: #ffffff;
+	width: 100%;
+	height: 60px;
+	position: relative;
+	display: block;
+	padding-top: 10px !important;
+	font-size: 15px;
+	z-index: 1;
+	
+}
+
 /* Comment Background Box */
 div#commentBox{
 	background: #1A1920;
@@ -372,11 +392,11 @@ div:nth-child(2)>div>div>div.progress-bar.progress-bar-success {
 }
 
 .s-chat-message__pinned,#chatMessagePinned.s-chat-message__pinned .s-chat-message_content /* Pinned Message */ {
-	background: #1A1920;
+	background: #000;
 	background: linear-gradient(0deg,rgba(26, 25, 32, 1) 0%, rgba(35, 47, 74, 1) 1%, rgba(65, 78, 105, 1) 100%) !important;
 	color: #ffffff;
-	border: solid #1A1920 1px !important;
-	box-shadow: 2px 2px 1px #1A1920 !important;
+	border: solid #000 1px !important;
+	box-shadow: 2px 2px 1px #000 !important;
 	color: #ffffff !important;
 	border: none !important
 }
