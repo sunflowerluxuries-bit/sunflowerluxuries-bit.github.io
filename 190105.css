@@ -8,7 +8,7 @@
 /*MOBILE BACKGROUND*/
 @media only screen and (max-width: 800px){
 body {
-	background: url('https://i.postimg.cc/m20Lcg4b/Live-Racing-1120x610.jpg') no-repeat center center fixed;
+	background: url('https://i.postimg.cc/CKKB2WDh/wp9089781.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -27,7 +27,7 @@ html:not(.nolayout) body:after {
 	left: 0;
 	right: 0;
 	z-index:-1; /* needed to keep in the background */
-	background: url('https://i.postimg.cc/m20Lcg4b/Live-Racing-1120x610.jpg') center center;
+	background: url('https://i.postimg.cc/CKKB2WDh/wp9089781.jpg') center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -42,7 +42,7 @@ html:not(.nolayout) body:after {
 /* DESKTOP BACKGROUND */
 @media only screen and (min-width: 801px){
 body {
-	background: url('https://i.postimg.cc/m20Lcg4b/Live-Racing-1120x610.jpg') center center fixed;
+	background: url('https://i.postimg.cc/CKKB2WDh/wp9089781.jpg') center center fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
 	-webkit-background-size: cover; /* safari may need this */
@@ -555,7 +555,7 @@ a[href$="532795"] div.cave-grid img {
 
 /* Cave 4 */
 a[href$="533943"] div.cave-grid img {
-	content: url('https://i.postimg.cc/fb2WXqQJ/Horses-jump-over-hurdle-ezgif-com-resize.jpg')!important;
+	content: url('https://i.postimg.cc/VN59tSKw/northern-pike-swimming-ezgif-com-resize.jpg')!important;
     opacity: 0.8 !important;
 
 }
@@ -581,10 +581,21 @@ a[href$="532123"] div.cave-grid img {
 
 /* Cave 8 */
 a[href$="542095"] div.cave-grid img {
-	content: url('https://i.postimg.cc/Gp73Ygn8/class-horse-1-ezgif-com-resize.jpg')!important;
+	content: url('https://i.postimg.cc/7Lb1zCKw/pike-orig-ezgif-com-resize.jpg')!important;
 
 }
 
+/* Cave 9 */
+a[href$="554787"] div.cave-grid img {
+	content: url('https://i.postimg.cc/VN59tSKw/northern-pike-swimming-ezgif-com-resize.jpg')!important;
+
+}
+
+/* Cave 9 */
+a[href$="554786"] div.cave-grid img {
+	content: url('https://i.postimg.cc/PqNbDLSt/f7262e-240e1472268d468294f2bb3cd4dcf135mv2-ezgif-com-resize.avif')!important;
+
+}
 
 div.mound-grid {
 	visibility: hidden;
